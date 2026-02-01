@@ -38,10 +38,22 @@ You are **reconstructing the PDF**, not downloading it from Drive.
 5. Open **Inspect Element / DevTools**
 6. Go to the **Console** tab
 7. If Chrome blocks pasting: allow pasting
+8. Paste the script and press Enter(execute).
 
 ---
-```javascript
 
+
+## 🧠 Key insight:
+If something is visible pixel-by-pixel in the browser, JavaScript can access it.
+
+## What is a Blob?
+A Blob is a browser-managed object that temporarily holds raw binary data (images, PDFs, videos) in memory without exposing it as a direct downloadable file.
+
+---
+---
+
+
+```javascript
 (function () {
   // Log to confirm script execution
   console.log("Loading script ...");
